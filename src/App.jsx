@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -12,7 +12,7 @@ import Leaderboard from "./pages/Leaderboard";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -32,7 +32,7 @@ function App() {
           element={<Leaderboard />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
