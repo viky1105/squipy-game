@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.noks {
+  margin:auto;
+}
+
+.wallet-btn {
+  height: 52px;
+  padding: 0 22px;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: linear-gradient(
+    135deg,
+    #a88374,
+    #8d6e63
+  );
+
+  color: white;
+
+  font-weight: 700;
+
+  border: none;
+
+  cursor: pointer;
+
+  transition: all .3s ease;
+
+  box-shadow:
+    0 10px 30px rgba(168,131,116,.35);
+
+
+}
+
+.wallet-btn:hover {
+  transform:
+    translateY(-3px)
+    scale(1.03);
+}
